@@ -23,14 +23,14 @@
     <!-- header section  -->
     <header>
         <nav>
-            <p class="navbar-logo">Yogi</p>
+            <a href="#home" class="navbar-logo">Yogi</a>
             <div class="navbar-menus">
                 <a href="#pricing">Pricing</a>
                 <a href="#about">About Us</a>
-                <a href="#contact">Contact</a>
+                <a href="#contact">Contact</a> | 
+                <button class="navbar-button__1">Login</button>
+                <button class="navbar-button__2">Sign Up</button>
             </div>
-            <button class="navbar-button__1">Login</button>
-            <button class="navbar-button__2">Sign Up</button>
         </nav>
     </header>
     <!-- /header section  -->
@@ -45,7 +45,7 @@
                     <p class="home-info__subtitle subtitle">Enjoy special design, development & advertising offers from Google,
                         Microsoft Advertising, and other leading sites to
                         help grow your business, - Start Today.</p>
-                    <button class="button home-button">Try for free<i class="fa-solid fa-chevron-right"></i></button>
+                    <button class="button home-button">Try for free<i class="fa-solid fa-chevron-right"></i></button><span class="home-button__info">* No credit card required</span>
                 </div>
                 <img src="./Images/home-image.png" alt="home page's image">
             </div>
@@ -67,9 +67,9 @@
             </div>
             <div class="pracing-cards">
                 <div class="card">
-                    <p class="card-rpice">$50<span>/hr</span></p>
+                    <p class="card-rpice title">$50<span class="subtitle">/hr</span></p>
                     <p class="card-title">App Design</p>
-                    <p class="card-subtitle">Essential Services for a Startup App Design</p>
+                    <p class="card-subtitle subtitle">Essential Services for a Startup App Design</p>
                     <ul>
                         <li><i class="fa-solid fa-circle-check"></i>Only Androind App</li>
                         <li><i class="fa-solid fa-circle-check"></i>Responsive Design</li>
@@ -77,9 +77,9 @@
                     <button class="button card-button">Buy Now</button>
                 </div>
                 <div class="card">
-                    <p class="card-rpice">$499<span>/hr</span></p>
+                    <p class="card-rpice title">$499<span class="subtitle">/hr</span></p>
                     <p class="card-title">Popular</p>
-                    <p class="card-subtitle">Advanced Level Company App Design for Mobile</p>
+                    <p class="card-subtitle subtitle">Advanced Level Company App Design for Mobile</p>
                     <ul>
                         <li><i class="fa-solid fa-circle-check"></i>Andoird Version App</li>
                         <li><i class="fa-solid fa-circle-check"></i>iOS Version App</li>
@@ -90,9 +90,9 @@
                     <button class="button card-button">Buy Now</button>
                 </div>
                 <div class="card">
-                    <p class="card-rpice">$999<span>/hr</span></p>
+                    <p class="card-rpice title">$999<span class="subtitle">/hr</span></p>
                     <p class="card-title">Premium Suite</p>
-                    <p class="card-subtitle">VIP Level of Product Design Services</p>
+                    <p class="card-subtitle subtitle">VIP Level of Product Design Services</p>
                     <ul>
                         <li><i class="fa-solid fa-circle-check"></i>Andoird Version App</li>
                         <li><i class="fa-solid fa-circle-check"></i>iOS Version App</li>
@@ -114,38 +114,41 @@
             <p class="user-title title">Out Happy Users</p>
             <div class="users-cards">
                 <div class="user-card">
-                    <p class="user-card-title">Very Good Design Services</p>
-                    <p class="user-card-subtitle">"Used for many years. Never have any problem in my computer."</p>
+                    <p class="user-card__title title">Very Good Design Services</p>
+                    <p class="user-card__subtitle subtitle">"Used for many years. Never have any problem in my computer."</p>
                     <div class="user-card-rating">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
+                    <p class="user-card__name">by Ugur D.</p>
                 </div>
                 <div class="user-card">
-                    <p class="user-card-title">Complete assistance with design & development</p>
-                    <p class="user-card-subtitle">The reason I initially first went with Kaspersky a few years ago was that I heard it was not very heavy on my resources.</p>
+                    <p class="user-card__title title">Complete assistance with design & development</p>
+                    <p class="user-card__subtitle subtitle">The reason I initially first went with Kaspersky a few years ago was that I heard it was not very heavy on my resources.</p>
                     <div class="user-card-rating">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
+                    <p class="user-card__name">by Ugur D.</p>
                 </div>
                 <div class="user-card">
-                    <p class="user-card-title">Awesome team collaboration</p>
-                    <p class="user-card-subtitle">A great product for all, easy to use and gives you all round protection. I like the easy way it carries out updates and
+                    <p class="user-card__title title">Awesome team collaboration</p>
+                    <p class="user-card__subtitle subtitle">A great product for all, easy to use and gives you all round protection. I like the easy way it carries out updates and
                     the fixing of errors</p>
                     <div class="user-card-rating">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
+                    <p class="user-card__name">by Ugur D.</p>
                 </div>
             </div>
         </div>
@@ -163,16 +166,18 @@
             <div class="about-images">
                 <img src="./Images/leader1.png" alt="about page images">
                 <img src="./Images/leader2.png" alt="about page images">
-                <img src="./Images/leader3.png" alt="about page images">
-                <img src="./Images/leader3-1.png" alt="about page images">
+                <div class="img-3">
+                    <img src="./Images/leader3.png" alt="about page images">
+                    <img src="./Images/leader3-1.png" alt="about page images">
+                </div>
                 <img src="./Images/leader4.png" alt="about page images">
             </div>
         </div>
         <!-- /about us page -->
 
         <!-- contact page -->
-        <div class="contact">
-            <p class="contact-title">Digital Branding & Product Design Services by a Global Leader.</p>
+        <div class="contact" id="contact">
+            <p class="contact-title">Digital Branding & Product Design <br> Services by a Global Leader.</p>
             <p class="contact-subtitle">With our advanced technology, you can enjoy a safe and private Internet experience without compromising the performance
             of your computer and mobile devices.</p>
             <button class="contact-button">Try for free</button>
@@ -185,8 +190,8 @@
     <!-- footer section  -->
     <footer>
         <div class="footer-up">
-            <div class="footer-up-menus">
-                <div class="company">
+            <div class="footer-up__menus">
+                <div>
                     <p class="footer-title">Company</p>
                     <ul>
                         <li>About Us</li>
@@ -195,13 +200,14 @@
                         <li>Careers</li>
                     </ul>
                 </div>
-                <div class="contact">
+                <div>
                     <p class="footer-title">Contact</p>
                     <ul>
                         <li>Terms of Use</li>
                         <li>Privacy Policy</li>
                         <li>F.A.Q</li>
                     </ul>
+                    
                 </div>
             </div>
             <div class="footer-up-form">
@@ -210,7 +216,7 @@
                 </select>
             </div>
         </div>
-        <hr class="footer-hr">
+        <!-- <hr class="footer-hr"> -->
         <div class="footer-down">
             <p class="footer-down__info">© 2021 Yogi.com</p>
             <div class="footer-down__icons">
